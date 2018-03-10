@@ -1,0 +1,3 @@
+db.url = prod.mysql.url
+db.username = produ1
+db.password = passwordprod

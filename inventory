@@ -1,0 +1,20 @@
+## inventory
+[aws-prod-app]
+10.171.32.158
+
+[aws-prod-appX]
+10.171.32.159
+
+[aws-prod:children]
+aws-prod-app
+aws-prod-appX
+
+[aws-test-app]
+10.161.158.221
+
+[aws-test-appX]
+10.161.158.221
+
+[aws-test:children]
+aws-test-app
+aws-test-appX
